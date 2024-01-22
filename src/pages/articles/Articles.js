@@ -192,5 +192,3 @@ export const Articles = ({ posts, featured }) => {
     </article>
   );
 };
-
-const a = 0;
