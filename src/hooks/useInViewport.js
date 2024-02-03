@@ -32,3 +32,4 @@ export function useInViewport(
 
   return intersect;
 }
+
