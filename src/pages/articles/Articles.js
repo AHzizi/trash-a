@@ -169,10 +169,7 @@ export const Articles = ({ posts, featured }) => {
 
   return (
     <article className={styles.articles}>
-      <Meta
-        title="Articles"
-        description="Lorem ipsum  dolor sit amet."
-      />
+      <Meta title="Articles" description="Lorem ipsum  dolor sit amet." />
       <Section className={styles.content}>
         {!isSingleColumn && (
           <div className={styles.grid}>
